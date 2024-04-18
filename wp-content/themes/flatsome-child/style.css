@@ -1,0 +1,44 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+.header-main .nav > li > a{font-weight: normal}.slider-cuoi .col, .tin-tuc .col{padding-bottom:0}
+.header-main {
+	box-shadow: 1px 2px 10px black;
+}
+.gioi-thieu .cot5 .block-gioi-thieu p{margin-bottom:10px}
+.gioi-thieu .cot5 .block-gioi-thieu{background: rgba(255, 255, 255, 0.85); font-size: 16px; color: #105458; padding: 15px; border-radius:4px; line-height:27px;}.gioi-thieu-1 .col p, .gioi-thieu-1 .col{padding-bottom:0}
+.gioi-thieu .cot7 h3{text-shadow: 2px 2px 10px #002729; line-height:40px}
+.gioi-thieu .row .cot6 .row .col img{border-radius:999px; border: 5px solid rgba(255, 255, 255, 0.41)}.gioi-thieu .cot6 h3{line-height:39px}
+.mat-bang .tabbed-content .nav-pills > li a span{font-size:16px}
+.mat-bang .tabbed-content .nav-pills > li.active > a{background: white; color: #03484c; font-size: 16px;}.kham-pha .col .button{margin-bottom:0}.kham-pha .col{padding-bottom:0}
+.tien-ich .row .cot6 .tien-ich-noi-do:hover{    background:#f1f1f1;}
+.tien-ich .row .cot6 .div-tien-ich{height: 370px; overflow-y: scroll}
+.footer-block .form-tai-bao-gia{width:100%; display:inline-block}
+.popup-content{border: 1px solid black;background-color: rgba(0, 0, 0, 0.68);}
+form{margin-bottom:0}
+.popup-title{font-size:15px}
+.popup-content{    overflow-y: hidden;
+	height: 336px;}
+.popup-content .form-tai-bao-gia{font-size:14px }
+.footer-block .form-tai-bao-gia .row1 {width:100%; display:inline-block}
+.footer-block .form-tai-bao-gia .row1 .cot-field{width: 31.5%; margin-right:5px;margin-left:5px; float: left; display: inline-block}
+.footer-block .form-tai-bao-gia input{font-size:15px; margin-bottom:3px}
+.footer-block .form-tai-bao-gia .text-area{margin-left:5px; margin-right:5px}
+.footer-block .form-tai-bao-gia input[type='submit']:not(.is-form){margin-left:5px}
+.blog-single{background: #f7f7f7}
+.blog-single .row.row-large{background: white; border-radius:4px;}
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+	.footer-block .form-tai-bao-gia .row1 .cot-field{width: 100%!important; margin:0}
+	.footer-block .form-tai-bao-gia .text-area{margin:0}
+}

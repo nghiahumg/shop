@@ -1,0 +1,640 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 11:22:42
+* VERSION: 3.8.6.2
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.33                                |7.4.16
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2024-03-18 13:43:34
+WP VERSION__________: 6.4.3
+DUP VERSION_________: 3.8.6.2
+DB__________________: 10.4.20
+DB TABLES___________: 21
+DB ROWS_____________: 498
+DB FILE SIZE________: 1671168
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.16 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/home/medi/domains/chohuuco.vn/public_html"
+LOG FILE 644________: false
+REQUEST URL_________: "http://chohuuco.vn/dup-installer/main.installer.php"
+********************************************************************************
+INSTALLER INFO
+PATH_NEW____________: "/home/medi/domains/chohuuco.vn/public_html"
+URL_NEW_____________: "http://chohuuco.vn"
+********************************************************************************
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/medi/domains/chohuuco.vn/public_html/20240318_batdongsan17_3dd91d2cc0e1c8162826_20240318134334_archive.zip"
+SIZE________________: 56.24MB
+
+VALUE TO INFO KEY: url_old VALUE "https://bds17.lapwebsite.com"
+VALUE TO INFO KEY: path_old VALUE "/home/web/domains/bds17.lapwebsite.com/public_html"
+VALUE TO INFO KEY: siteurl_old VALUE "https://bds17.lapwebsite.com"
+VALUE TO INFO KEY: path_cont_old VALUE "/home/web/domains/bds17.lapwebsite.com/public_html/wp-content"
+VALUE TO INFO KEY: url_cont_old VALUE "https://bds17.lapwebsite.com/wp-content"
+VALUE TO INFO KEY: path_upl_old VALUE "/home/web/domains/bds17.lapwebsite.com/public_html/wp-content/uploads"
+VALUE TO INFO KEY: url_upl_old VALUE "https://bds17.lapwebsite.com/wp-content/uploads"
+VALUE TO INFO KEY: path_plug_old VALUE "/home/web/domains/bds17.lapwebsite.com/public_html/wp-content/plugins"
+VALUE TO INFO KEY: url_plug_old VALUE "https://bds17.lapwebsite.com/wp-content/plugins"
+VALUE TO INFO KEY: path_muplug_old VALUE "/home/web/domains/bds17.lapwebsite.com/public_html/wp-content/mu-plugins"
+VALUE TO INFO KEY: url_muplug_old VALUE "https://bds17.lapwebsite.com/wp-content/mu-plugins"
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 11:22:46
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchivechunking"
+CLIENT KICKOFF______: false
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+
+
+START ZIP FILE EXTRACTION CHUNKING >>> 
+ARCHIVE OFFSET 0
+Archive just got done processing last file in list of 11335
+Expected total archive extract time: 3.6004562103617
+Total extraction elapsed time until now: 3.6004562103617
+Resetting permissions
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess file was not reset or backed up.
+- .user.ini file was not reset or backed up.
+- web.config file was not reset or backed up.
+
+STEP-1 COMPLETE @ 11:23:04 - RUNTIME: 18.3406 sec.
+
+-------------------------
+AJAX ACTION dbtest
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 11:23:25
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8"
+CHARSET FB__________: false
+CHARSET FB VAL______: "big5"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+COLLATE FB VAL______: "big5_chinese_ci"
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+[PHP ERR][NOTICE] MSG:Undefined index: dbcharset [CODE:8|FILE:/home/medi/domains/chohuuco.vn/public_html/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:74]
+[PHP ERR][NOTICE] MSG:Undefined index: dbcollate [CODE:8|FILE:/home/medi/domains/chohuuco.vn/public_html/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:75]
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.18 -- Build Server: 10.4.20
+FILE SIZE:	dup-database__3dd91d2-18134334.sql (541.63KB)
+TIMEOUT:	5000
+MAXPACK:	524288000
+SQLMODE-GLOBAL:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+COLLATE FB:	Off
+DB CHUNKING:	enabled
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+
+NOTICE: This servers version [10.1.18] is less than the build version [10.4.20].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+[PHP ERR][NOTICE] MSG:Undefined index: dbcharset [CODE:8|FILE:/home/medi/domains/chohuuco.vn/public_html/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:74]
+[PHP ERR][NOTICE] MSG:Undefined index: dbcollate [CODE:8|FILE:/home/medi/domains/chohuuco.vn/public_html/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:75]
+Starting Cleanup Routine...
+Cleanup Routine Complete
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	0
+
+TABLES ROWS
+
+TABLE "eb_actionscheduler_actions"______________________[ROWS:     1]
+TABLE "eb_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "eb_actionscheduler_groups"_______________________[ROWS:     1]
+TABLE "eb_actionscheduler_logs"_________________________[ROWS:     1]
+TABLE "eb_commentmeta"__________________________________[ROWS:     0]
+TABLE "eb_comments"_____________________________________[ROWS:     0]
+TABLE "eb_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "eb_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "eb_links"________________________________________[ROWS:     0]
+TABLE "eb_options"______________________________________[ROWS:   190]
+TABLE "eb_postmeta"_____________________________________[ROWS:   181]
+TABLE "eb_posts"________________________________________[ROWS:    70]
+TABLE "eb_term_relationships"___________________________[ROWS:     8]
+TABLE "eb_term_taxonomy"________________________________[ROWS:     3]
+TABLE "eb_termmeta"_____________________________________[ROWS:     0]
+TABLE "eb_terms"________________________________________[ROWS:     3]
+TABLE "eb_usermeta"_____________________________________[ROWS:    26]
+TABLE "eb_users"________________________________________[ROWS:     1]
+TABLE "eb_wp_floating_menu_custom_templates"____________[ROWS:     1]
+TABLE "eb_wp_floating_menu_details"_____________________[ROWS:     1]
+TABLE "eb_wpmailsmtp_tasks_meta"________________________[ROWS:     0]
+
+DATABASE CACHE/TRANSITIENT [ROWS:    17]
+
+INSERT DATA RUNTIME: 0.0235 sec.
+STEP-2 COMPLETE @ 11:23:26 - RUNTIME: 0.0298 sec.
+VALUE TO INFO KEY: url_old VALUE "https://bds17.lapwebsite.com"
+VALUE TO INFO KEY: url_new VALUE "http://chohuuco.vn"
+VALUE TO INFO KEY: path_old VALUE "/home/web/domains/bds17.lapwebsite.com/public_html"
+VALUE TO INFO KEY: path_new VALUE "/home/medi/domains/chohuuco.vn/public_html"
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:24:10
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Bất Động Sản 17"
+url_old_______________: "https://bds17.lapwebsite.com"
+url_new_______________: "http://chohuuco.vn"
+siteurl_______________: "http://chohuuco.vn"
+path_new______________: "/home/medi/domains/chohuuco.vn/public_html"
+path_old______________: "/home/web/domains/bds17.lapwebsite.com/public_html"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 1
+wp_username___________: "admin"
+wp_mail_______________: "ngo.khanh4@gmail.com"
+wp_nickname___________: "Admin"
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+action_mu_mode________: -1
+DISALLOW_FILE_EDIT____: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+AUTOSAVE_INTERVAL_____: Array
+(
+    [value] => 60
+    [inWpConfig] => 
+)
+
+WP_POST_REVISIONS_____: Array
+(
+    [value] => 1
+    [inWpConfig] => 
+)
+
+FORCE_SSL_ADMIN_______: Array
+(
+    [value] => 1
+    [inWpConfig] => 
+)
+
+WP_AUTO_UPDATE_CORE___: Array
+(
+    [value] => false
+    [inWpConfig] => 
+)
+
+WP_CACHE______________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+WPCACHEHOME___________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+WP_DEBUG______________: Array
+(
+    [value] => 
+    [inWpConfig] => 1
+)
+
+WP_DEBUG_LOG__________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+WP_DEBUG_DISPLAY______: Array
+(
+    [value] => 1
+    [inWpConfig] => 
+)
+
+SCRIPT_DEBUG__________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+SAVEQUERIES___________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+COOKIE_DOMAIN_________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+WP_MEMORY_LIMIT_______: Array
+(
+    [value] => 40M
+    [inWpConfig] => 
+)
+
+WP_MAX_MEMORY_LIMIT___: Array
+(
+    [value] => 2048M
+    [inWpConfig] => 
+)
+
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "eb_actionscheduler_actions"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "eb_actionscheduler_groups"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_actionscheduler_logs"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "eb_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "eb_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "eb_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "eb_options"______________________________________[ROWS:   190][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_postmeta"_____________________________________[ROWS:   181][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_posts"________________________________________[ROWS:    70][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_term_relationships"___________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_term_taxonomy"________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "eb_terms"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_usermeta"_____________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_wp_floating_menu_custom_templates"____________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_wp_floating_menu_details"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds17.lapwebsite.com/public_html/" => "/home/medi/domains/chohuuco.vn/public_html/"
+	SEARCH  2:"\/home\/web\/domains\/bds17.lapwebsite.com\/public_html\/" => "\/home\/medi\/domains\/chohuuco.vn\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds17.lapwebsite.com%2Fpublic_html%2F" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html%2F"
+	SEARCH  4:"\home\web\domains\bds17.lapwebsite.com\public_html" => "/home/medi/domains/chohuuco.vn/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds17.lapwebsite.com\\public_html" => "\/home\/medi\/domains\/chohuuco.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds17.lapwebsite.com%5Cpublic_html" => "%2Fhome%2Fmedi%2Fdomains%2Fchohuuco.vn%2Fpublic_html"
+	SEARCH  7:"//bds17.lapwebsite.com" ==========================> "//chohuuco.vn"
+	SEARCH  8:"\/\/bds17.lapwebsite.com" ========================> "\/\/chohuuco.vn"
+	SEARCH  9:"%2F%2Fbds17.lapwebsite.com" ======================> "%2F%2Fchohuuco.vn"
+	SEARCH 10:"https://chohuuco.vn" =============================> "http://chohuuco.vn"
+	SEARCH 11:"https:\/\/chohuuco.vn" ===========================> "http:\/\/chohuuco.vn"
+	SEARCH 12:"https%3A%2F%2Fchohuuco.vn" =======================> "http%3A%2F%2Fchohuuco.vn"
+
+EVALUATE TABLE: "eb_wpmailsmtp_tasks_meta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:21 	|	 Rows:492 	|	 Cells:3305 
+UPDATED:	Tables:2 	|	 Rows:3 	|	 Cells:3 
+ERRORS:		0 
+RUNTIME:	0.058600 sec
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'admin' was created successfully allong with MU usermeta.
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""medi_a""
+	UPDATE DB_USER ""medi_a""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	WP CONFIG UPDATE WP_DEBUG false
+	[PHP ERR][WARN] MSG:file_put_contents(/home/medi/domains/chohuuco.vn/public_html/dup-wp-config-arc__3dd91d2-18134334.txt): failed to open stream: Success [CODE:2|FILE:/home/medi/domains/chohuuco.vn/public_html/dup-installer/lib/config/class.wp.config.tranformer.php|LINE:447]
+	WP-CONFIG TRANSFORMER EXCEPTION
+#0 /home/medi/domains/chohuuco.vn/public_html/dup-installer/lib/config/class.wp.config.tranformer.php(310): WPConfigTransformer->save()
+#1 /home/medi/domains/chohuuco.vn/public_html/dup-installer/classes/config/class.archive.config.php(597): WPConfigTransformer->update()
+#2 /home/medi/domains/chohuuco.vn/public_html/dup-installer/classes/config/class.archive.config.php(555): DUPX_ArchiveConfig::updateWpConfigByValue()
+#3 /home/medi/domains/chohuuco.vn/public_html/dup-installer/classes/class.s3.func.php(1291): DUPX_ArchiveConfig::updateWpConfigByParam()
+#4 /home/medi/domains/chohuuco.vn/public_html/dup-installer/ctrls/ctrl.s3.php(88): DUPX_S3_Funcs->configurationFileUpdate()
+#5 /home/medi/domains/chohuuco.vn/public_html/dup-installer/ctrls/ctrl.base.php(154): require_once('/home/medi/doma...')
+#6 /home/medi/domains/chohuuco.vn/public_html/dup-installer/main.installer.php(75): DUPX_CTRL::mainController()
+#7 {main}
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+
+====================================
+GENERAL CLEANUP
+====================================
+- Removed '0' schedule storage items
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:24:10 - RUNTIME: 0.1283 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG: The following is a list of notices that may need to be fixed in order to finalize your setup.
+These values should only be investigated if you're running into issues with your site.
+For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[ERROR] wp-config.php transformer:Failed to update the wp-config.php file.
+	SECTIONS: general
+	LONG MSG: Error updating wp-config file.<br>
+The installation is finished but check the wp-config.php file and manually update the incorrect values.
+
+====================================
